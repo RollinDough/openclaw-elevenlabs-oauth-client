@@ -1,0 +1,13 @@
+{
+  "client_id": "https://rollindough.github.io/openclaw-elevenlabs-oauth-client/client-metadata.json",
+  "client_name": "OpenClaw — Troy's ElevenLabs connector",
+  "client_uri": "https://rollindough.github.io/openclaw-elevenlabs-oauth-client/",
+  "application_type": "native",
+  "redirect_uris": [
+    "http://127.0.0.1:8989/oauth/callback",
+    "http://localhost:8989/oauth/callback"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"]
+}
